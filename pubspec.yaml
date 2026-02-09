@@ -1,0 +1,27 @@
+name: unicorn_mobile_flutter
+description: A new Flutter project for Unicorn Mobile (Nam Som Edition).
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.8.2
+  flutter_dotenv: ^5.2.1
+  google_fonts: ^6.2.1
+  intl: ^0.19.0
+  flutter_hooks: ^0.20.5
+  lucide_icons: ^0.1.0 # Optional, for icons
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
